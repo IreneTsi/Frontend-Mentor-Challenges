@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+html,
+body {
+  font-family: "Red Hat Display", sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: var(--Very-pale-blue);
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.summaryContainer {
+  width: 450px;
+  background-color: #fff;
+  border-radius: 1rem;
+  color: var(--Dark-blue);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.summaryTitle {
+  padding: 2rem 0 1rem 0;
+  font-size: 16px;
+}
+
+.summaryDescription {
+  color: var(--Desaturated-blue);
+  padding-bottom: 1rem;
+  font-size: 16px;
+}
+
+.hero {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.planContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--Very-pale-blue);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.plan {
+  display: flex;
+}
+
+.planInfo {
+  padding-left: 1rem;
+  text-align: center;
+}
+
+.btn {
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background: none;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.changeBtn {
+  color: var(--Dark-blue);
+}
+
+.proceedBtn {
+  background-color: var(--Dark-blue);
+  color: #fff;
+}
+
+.cancelBtn {
+  margin-bottom: 1rem;
+  color: var(--Desaturated-blue);
+}
+
+/* copyright */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

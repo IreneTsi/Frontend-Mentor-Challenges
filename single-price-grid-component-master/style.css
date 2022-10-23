@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  max-width: 800px;
+  width: 800px;
+}
+
+section {
+  padding: 30px;
+}
+
+.left {
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+}
+
+.right {
+  background-color: hsl(179, 47%, 52%);
+  color: #fff;
+}
+
+.row {
+  display: flex;
+}
+
+.row > section {
+  flex: 1;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+.yellow-text {
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+}
+
+p.grey-text {
+  color: #999;
+  margin: 7px;
+}
+
+.left h2,
+.left p {
+  margin-bottom: 15px;
+}
+
+p.price {
+  color: hsl(179, 43%, 75%);
+  display: flex;
+  align-items: center;
+}
+
+p.price span {
+  color: #fff;
+  font-size: 50px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 0;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.right h2 {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  opacity: 0.7;
+}
+
+ul li {
+  line-height: 28px;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Copyright */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

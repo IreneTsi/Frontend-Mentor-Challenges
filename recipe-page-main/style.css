@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --darkraspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rosewhite: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --lightgrey: hsl(30, 18%, 87%);
+    --wengebrown: hsl(30, 10%, 34%);
+    --darkcharcoal: hsl(24, 5%, 18%);
+
+    --heading: 'Young Serif', serif;
+    --heading-weight: 400;
+    --content: 'Outfit', sans-serif;
+    --content-weight-400: 400;
+    --content-weight-700: 700;
+    --content-font-size : 16px;
+
+}
+
+body {
+    max-width: 1440px;
+    height: auto;
+    background-color: var(--eggshell);
+    font-family: var(--content);
+    
+}
+
+main {
+    width: 1312px;
+    margin: 64px 64px;
+    background-color: var(--white);
+}
+
+.main-section {
+    max-width: 1440px;    
+    padding: 64px;
+    margin: 90px 0px;    
+    color: var(--wengebrown);
+    display: grid;
+    align-items: center;
+   
+}
+
+img {
+   width: 1180px;
+   border-radius: 10px;
+}
+
+.title-header {
+    font-family: var(--heading);
+    font-weight: var(--content-weight-400);
+    font-size: 2.2rem;
+    margin-top: 5px;
+    padding: 5px 20px;
+    color: var(--darkcharcoal);
+
+}
+
+.content-header {
+    color: var(--wengebrown);
+    margin: 25px;
+    padding: 5px 20px;
+    
+}
+
+.preparation-time {
+    background-color: var(--rosewhite);
+    margin: 10px 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.preparation-title {
+    margin-top: 5px;
+    padding: 15px 25px;
+    color:var(--darkraspberry);
+}
+
+.preparation-list {
+    margin-top: 5px;
+    padding: 15px 25px;
+    color: var(--darkraspberry);
+    
+}
+
+.preparation-list > li {
+    padding: 5px;
+    
+    
+}
+
+.preparation-li {
+    padding-left: 5px;    
+    font-weight: var(--content-weight-700);
+    color: var(--wengebrown);
+}
+
+.ingredients {
+    margin: 25px;
+}
+
+.ingredients-title {
+    font-family: var(--heading);
+    font-weight: var(--heading-weight);
+    font-size: 1.8rem;
+    margin-bottom:15px;
+    color: var(--nutmeg);
+
+}
+
+.ingredients-list {
+    list-style-position: inside;
+    color: var(--nutmeg);
+    font-family: var(--content);
+
+}
+
+.ingredients-list > li {
+    padding: 5px;
+  }
+
+  hr {
+    border-top: 1px solid var(--lightgrey);
+    width: 90%;
+    margin: 30px 30px 10px;
+    align-self: center;
+  }
+
+  .instuctions{
+    margin: 25px;
+  }
+
+  .instructions-title {
+    font-family: var(--heading);
+    font-weight: var(--heading-weight);
+    font-size: 1.8rem;
+    margin-top: 25px;
+    margin-bottom:15px;
+    color: var(--nutmeg);
+
+  }
+
+  .instructions-list {
+    list-style-position: inside;
+    color: var(--nutmeg);
+    font-family: var(--content);
+    color: var(--nutmeg);
+  }
+
+  .instructions-li {
+    padding: 8px;
+    font-weight: var(--content-weight-700);
+    
+  }
+
+  .instructions-li:nth-child(2) {
+    color: var(--wengebrown);
+  }
+
+  .nutrition {
+    margin: 25px;
+  }
+
+  .nutrition-title {
+    font-family: var(--heading);
+    font-weight: var(--heading-weight);
+    font-size: 1.8rem;
+    margin-top: 25px;
+    margin-bottom:15px;
+    color: var(--nutmeg);
+  
+  }
+
+  
+  .nutrition > p {
+    margin-bottom: 15px;
+  }
+
+  table{
+    width: 375px;
+    border-collapse: collapse;
+
+}
+
+tr{
+    border-bottom: 1px solid var(--lightgrey);
+    border-width: 75%;
+}
+
+td{
+    padding: 10px 30px;
+
+}
+
+.nutrition-bold {
+    color: var(--wengebrown);
+    font-weight: var(--content-weight-700);
+}
+
+
+
+
